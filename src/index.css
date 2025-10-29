@@ -1,0 +1,13 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+.leaflet-container { height: 100%; }
+
+.panel { @apply bg-white/95 backdrop-blur shadow-xl rounded-2xl ring-1 ring-slate-200; }
+.btn { @apply px-4 py-2 rounded-xl transition; }
+.btn-primary { @apply bg-slate-900 text-white hover:bg-slate-800 disabled:opacity-50; }
+.btn-ghost { @apply bg-slate-200 text-slate-800 hover:bg-slate-300 disabled:opacity-50; }
+.bottombar { @apply bg-white/95 backdrop-blur shadow-xl rounded-2xl ring-1 ring-slate-200; }
